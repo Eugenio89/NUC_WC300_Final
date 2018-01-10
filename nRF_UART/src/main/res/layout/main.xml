@@ -51,9 +51,10 @@
             <ListView
                 android:id="@+id/listMessage"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="0dp"
                 android:layout_above="@+id/sendButton"
-                android:layout_alignParentLeft="true">
+                android:layout_alignParentLeft="true"
+                android:visibility="visible">
 
             </ListView>
 
@@ -123,7 +124,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:checked="false"
+                            android:checked="true"
                             android:onClick="onRadioButtonClickedControl"
                             android:text="Turn OFF"
                             android:textColorLink="@android:color/holo_green_light"
